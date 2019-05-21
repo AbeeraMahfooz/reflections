@@ -5,18 +5,35 @@ initialized empty git repository. to track commits and history of changes.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-working area contains the complete files of your repository whereas staging area contains only those which are added.
+working area contains the complete files of your repository whereas staging area 
+contains only those which are added.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+we can select the logically related files to be in the staging area that will be 
+commited once.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+when you are not sure whether a new feature will be fine or not, separate it from 
+the main app.
+
 How do the diagrams help you visualize the branch structure?
+
+it helps to identify all the various commits been made at a particular branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+combine the commits of both the branches. notify if any conflict happen to be 
+resolved by the team members.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+automatic merging may create merge commits which are not logically completed since 
+one logical change may require more than 1 commits. while manual commits may lead to 
+missing some important logical breskpoints.
+
