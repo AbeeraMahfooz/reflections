@@ -6,12 +6,17 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    some logical changes may happen in more than 1 commit, so manual pulling is 
+    reasonable.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    fork is used when we need to use and update others repository from their 
+    GitHub account to our own GitHub account but dont have permissons to do so. 
+    clone is used to copy the repository from GitHub to your local machine.
+    branches will be a part of same repository but used to work separately
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
